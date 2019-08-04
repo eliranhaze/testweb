@@ -118,3 +118,7 @@ a:active {text-decoration: none;color:#8c1515;}
 .col-body {
 	padding-top: 8px;
 }
+.col-text {
+	text-align: justify;
+	padding-bottom: 18px;
+}
