@@ -42,14 +42,11 @@ table {
 	border-spacing: 0;
 }
 #header{
-	display: table-cell;
-    	vertical-align: bottom;
-	text-align: center;
 	width:100%;
-	min-width:960px;
 	margin: auto;
-	height:130px;
 	padding-bottom: 40px;
+    	padding-top: 90px;
+    	padding-left: 15px;
 	font-size: 28px;
 	font-family: "ff-scala-sans-web", sans-serif;
 	/*font-family: 'Alegreya Sans', sans-serif;*/
