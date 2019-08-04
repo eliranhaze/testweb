@@ -90,6 +90,12 @@ table {
 body {
 	color: #2e2d29;
 }
+::-webkit-selection{
+	background-color: #dad7cb;
+}
+::-moz-selection{
+	background-color: #dad7cb;
+}
 ::selection{
 	background-color: #dad7cb;
 }
