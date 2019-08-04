@@ -88,8 +88,8 @@ table {
 	margin:auto;
 }
 body {
-	color: #2e2d29;}
-
+	color: #2e2d29;
+}
 li {
 	margin:10px 0;
 }
@@ -106,3 +106,6 @@ a:link {text-decoration: none; background-color: none; color:#8c1515;}
 a:visited {text-decoration: none;color:#8c1515;}
 a:hover {text-decoration: none;color:#B1040E;}
 a:active {text-decoration: none;color:#8c1515;}
+.col-body {
+	padding-top: 8px;
+}
