@@ -90,6 +90,9 @@ table {
 body {
 	color: #2e2d29;
 }
+::selection{
+	background-color: #dad7cb;
+}
 li {
 	margin:10px 0;
 }
