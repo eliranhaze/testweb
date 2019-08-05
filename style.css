@@ -122,3 +122,6 @@ a:active {text-decoration: none;color:#8c1515;}
 	text-align: justify;
 	padding-bottom: 18px;
 }
+.paper-venue {
+	font-style: italic;
+}
