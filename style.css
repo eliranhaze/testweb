@@ -87,6 +87,9 @@ table {
 	min-width:960px;
 	margin:auto;
 }
+#papers{
+	margin-top: -8px;
+}
 body {
 	color: #2e2d29;
 }
