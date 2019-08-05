@@ -114,10 +114,8 @@ h6 {
 	font-size:22px;
 	border-bottom: 1px solid #eee;
 }
-a:link {text-decoration: none; color:#8c1515;}
-a:visited {text-decoration: none; color:#8c1515;}
-a:hover {text-decoration: none; color:#B1040E;}
-a:active {text-decoration: none; color:#8c1515;}
+a {text-decoration: none; color:#8c1515;}
+a:hover {color:#B1040E;}
 .col-body {
 	padding-top: 8px;
 }
@@ -128,7 +126,8 @@ a:active {text-decoration: none; color:#8c1515;}
 .paper-venue {
 	font-style: italic;
 }
-a.paper-talk:link {text-decoration: none; color: #a2a19f;}
-a.paper-talk:visited {text-decoration: none; color: #a2a19f;}
-a.paper-talk:hover {text-decoration: none; color: #544948;}
-a.paper-talk:active {text-decoration: none; color: #a2a19f;}
+a.paper-talk {text-decoration: none; color: #a2a19f;}
+a.paper-talk:hover {color: #544948;}
+
+a.teach-link {text-decoration: none; color: inherit; border-bottom: 1px dotted ;}
+a.teach-link:hover {text-decoration: none; color: #a2a19f;}
