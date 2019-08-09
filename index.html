@@ -5,6 +5,7 @@
         <head>
 			<script type="text/javascript" src="//use.typekit.net/zxh2shw.js"></script>
 			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
@@ -44,14 +45,22 @@
                     <div id="right">
 			<h6><span class="lnr lnr-mustache" style="color: white"></span></h6>
 			<div class="col-body">
-			  <img src="d1.jpg">
+				<img src="d1.jpg" ondblclick="$(this).toggleClass('rotated');">
 			</div>
                     </div>
                     <div id="middle">
 			<h6><span class="lnr lnr-home"></span></h6>
 			<div class="col-body">
 
-
+<style type="text/css">
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+}
+</style>
 	<p class="col-text">I am a Motwani Postdoctoral Fellow in Stanford's Computer Science theory group, hosted by Omer Reingold.</p>
 
     <p class="col-text">My research lies within Theory of Computation, mainly computational complexity, randomness in computation and explicit constructions. 
