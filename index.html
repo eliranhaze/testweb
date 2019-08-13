@@ -12,7 +12,6 @@
 			<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 			<link rel="stylesheet" href="style.css">
 
-		<!--<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic' rel='stylesheet' type='text/css'>-->
                 <title>Dean Doron</title>
         </head>
 
@@ -26,47 +25,29 @@
 
         		<nav class="main-nav mobile-nav">
 		  	  <ul>
-          		    <li class="page-collection active-link">
-              		    <a href="index.html">home</a>
+          		    <li>
+              		    <a onclick="$('#main-content').load('home.html');" href="#" href="#">home</a>
           		    </li>
-          		    <li class="page-collection">
-              		    <a href="papers.html">papers</a>
+          		    <li>
+              		    <a onclick="$('#main-content').load('papers.html');" href="#">papers</a>
           		    </li>
-          		    <li class="page-collection">
-              		    <a href="teaching.html">teaching</a>
+          		    <li>
+              		    <a onclick="$('#main-content').load('teaching.html');" href="#" href="#">teaching</a>
           		    </li>
-          		    <li class="page-collection">   
-              		    <a href="contact.html">contact</a>
+          		    <li>   
+              		    <a onclick="$('#main-content').load('contact.html');" href="#" href="#">contact</a>
           		    </li>
 			    </ul>
 			</nav>
 
                     </div>
-                    <div id="right">
-			<h6><span class="lnr lnr-mustache" style="color: white"></span></h6>
-			<div class="col-body">
-				<img id='home-img' src="d1.jpg">
-			</div>
-                    </div>
-                    <div id="middle">
-			<h6><span class="lnr lnr-home"></span></h6>
-			<div class="col-body">
-	<p class="col-text">I am a Motwani Postdoctoral Fellow in Stanford's Computer Science theory group, hosted by Omer Reingold.</p>
-
-    <p class="col-text">My research lies within Theory of Computation, mainly computational complexity, randomness in computation and explicit constructions. 
-	    More specifically, I am interesterd in pseudorandomness, derandomization, and error-correcting codes.</p>
-  <p class="col-text">
-    Before coming to Stanford, I was a postdoctoral researcher in UT Austin's Algorithms and Computational Theory Group hosted by Dana Moshkovitz and David Zuckerman.  
-	  I received my PhD from Tel-Aviv University, where I was fortunate to have Amnon Ta-Shma as my advisor.
-  </p>
-			</div>
-
+		    <div id="main-content">
                     </div>
                     <div id="footer">
 
                     </div>
                 </div>
-	<script src="fun.js"></script>
+	<script src="web.js"></script>
         </body>
 </html>
 
