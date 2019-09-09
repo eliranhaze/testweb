@@ -10,8 +10,8 @@ function initHome() {
 }
 
 function initImg() {
-	var img1 = 'boulder.jpg';
-	var img2 = 'd2.jpg';
+	var img1 = 'dd1.jpg';
+	var img2 = 'b1.jpg';
 	var img3 = 'panda1.jpg';
 	var element = $('#home-img');
 	element.dblclick(function(){
