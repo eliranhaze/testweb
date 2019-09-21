@@ -10,7 +10,7 @@ function initHome() {
 }
 
 function initImg() {
-	var img1 = 'dd1_2_s.jpg';
+	var img1 = 'dd_new.jpg';
 	var img2 = 'jump.jpg';
 	var img3 = 'panda1.jpg';
 	var element = $('#home-img');
