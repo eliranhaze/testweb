@@ -6,7 +6,7 @@ function init() {
 }
 
 function initHome() {
-	$('#main-content').load('home.html');
+	$('#main-content').load('index.html');
 }
 
 function initImg() {
