@@ -13,8 +13,10 @@ function initImg() {
 	var img1 = 'dean.jpg';
 	var img2 = 'jump.jpg';
 	var img3 = 'panda1.jpg';
-	var element = $('#home-img');
-	element.dblclick(function(){
+	// attach event to 'body' because elements inside it might change dynamically
+	// the selector '#home-img' filters other elements from triggering the event
+	$('body').on('dblclick', '#home-img', function(){
+		var element = $('#home-img');
 		var src = element.attr('src');
 		switch(src) {
 		  case img1:
